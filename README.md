@@ -6,6 +6,7 @@ This project is a simple NoSQL client for Android is used Realm database.
   - **Fast:** TinyRealm is faster than even raw SQLite on common operations while maintaining an extremely rich feature set.
   
 ## Installation
+Add the JitPack repository to your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
     repositories {
@@ -14,7 +15,7 @@ allprojects {
     }
 }
 ```
-
+Add the dependency:
 ```gradle
 dependencies {
         compile 'com.github.htdangkhoa:TinyRealm:v1.0.0'
